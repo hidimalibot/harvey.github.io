@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color:black;
+  padding: 20px;
+  font-family: Lucida Console;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 70px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 10px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  display: none; /* Hide all elements by default */
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: #ddc912;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #ffffff;
+}
+
+.btn.active {
+  background-color: #fffcfc;
+  color: rgb(255, 255, 255);
+}
+</style>
+</head>
+<body>
+
+<!-- MAIN (Center website) -->
+<div class="main">
+
+<h1 style="color:white">PRELIMS</h1>
+<hr>
+
+<h2 style="color:white; font-family:Lucida Console">ACTIVITY</h2>
+
+<div id="myBtnContainer" style="font-family:Times New Roman, Times, serif">
+  <button class="btn" onclick="filterSelection('Activity 1')"> Activity 1</button>
+  <button class="btn" onclick="filterSelection('Activity 2')"> Activity 2</button>
+  <button class="btn" onclick="filterSelection('Activity 3')"> Activity 3</button>
+  <button class="btn" onclick="filterSelection('Activity 4')"> Activity 4</button>
+  <button class="btn" onclick="filterSelection('Activity 5')"> Activity 5</button>
+  <button class="btn" onclick="filterSelection('Prelim Skills')"> Prelim Skills</button>
+</div>
+
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column Activity 1">
+      <img src="Act 1/act 1.1.JPG" style="width:200%">
+      <img src="Act 1/act 1.2.JPG" style="width:200%">
+      <img src="Act 1/act 1.3.JPG" style="width:200%">
+      <img src="Act 1/act 1.4.JPG" style="width:200%">
+      <img src="Act 1/act 1.5.JPG" style="width:200%">
+      <img src="Act 1/act 1.6.JPG" style="width:200%">
+      <img src="Act 1/act 1.7.JPG" style="width:200%">
+      <img src="Act 1/act 1.8.JPG" style="width:200%">
+      <img src="Act 1/act 1.9.JPG" style="width:200%">
+      <img src="Act 1/act 1.10.JPG" style="width:200%">
+      <img src="Act 1/act 1.11.JPG" style="width:200%">
+    </div>
+  </div>
+  
+  <div class="row">
+    <div class="column Activity 2">
+        <img src="Act 2/act 2.1.JPG" style="width:200%">
+        <img src="Act 2/act 2.2.JPG" style="width:200%">
+        <img src="Act 2/act 2.3.JPG" style="width:200%">
+        <img src="Act 2/act 2.4.JPG" style="width:200%">
+        <img src="Act 2/act 2.5.JPG" style="width:200%">
+        <img src="Act 2/act 2.6.JPG" style="width:200%">
+        <img src="Act 2/act 2.7.JPG" style="width:200%">
+        <img src="Act 2/act 2.8.JPG" style="width:200%">
+      </div>
+    </div>
+
+  <div class="row">
+    <div class="column Activity 3">
+        <img src="Act 3/act 3.1.JPG" style="width:200%">
+        <img src="Act 3/act 3.2.JPG" style="width:200%">
+        <img src="Act 3/act 3.3.JPG" style="width:200%">
+      </div>
+    </div>
+
+<div class="row">
+  <div class="column Activity 4">
+    <img src="Act 4/act 4.1.JPG" style="width:200%">
+    <img src="Act 4/act 4.2.JPG" style="width:200%">
+    <img src="Act 4/act 4.3.JPG" style="width:200%">
+    <img src="Act 4/act 4.4.JPG" style="width:200%">
+    <img src="Act 4/act 4.5.JPG" style="width:200%">
+    <img src="Act 4/act 4.6.JPG" style="width:200%">
+    <img src="Act 4/act 4.7.JPG" style="width:200%">
+    <img src="Act 4/act 4.8.JPG" style="width:200%">
+    <img src="Act 4/act 4.9.JPG" style="width:200%">
+    <img src="Act 4/act 4.10.JPG" style="width:200%">
+    <img src="Act 4/act 4.11.JPG" style="width:200%">
+    <img src="Act 4/act 4.12.JPG" style="width:200%">
+  </div>
+</div>
+
+<div class="row">
+<div class="column Activity 5">
+  <img src="Act 5/act 5.1.JPG" style="width:200%">
+  <img src="Act 5/act 5.2.JPG" style="width:200%">
+  <img src="Act 5/act 5.3.JPG" style="width:200%">
+  <img src="Act 5/act 5.4.JPG" style="width:200%">
+  <img src="Act 5/act 5.5.JPG" style="width:200%">
+  <img src="Act 5/act 5.6.JPG" style="width:200%">
+  <img src="Act 5/act 5.7.JPG" style="width:200%">
+  <img src="Act 5/act 5.8.JPG" style="width:200%">
+  <img src="Act 5/act 5.9.JPG" style="width:200%">
+  <img src="Act 5/act 5.10.JPG" style="width:200%">
+  <img src="Act 5/act 5.11.JPG" style="width:200%">
+  <img src="Act 5/act 5.12.JPG" style="width:200%">
+  <img src="Act 5/act 5.13.JPG" style="width:200%">
+</div>
+</div>
+
+<div class="row">
+<div class="column Prelim Skills">
+    <img src="Prelim skill/prelim 1.JPG" style="width:200%">
+    <img src="Prelim skill/prelim 2.JPG" style="width:200%">
+    <img src="Prelim skill/prelim 3.JPG" style="width:200%">
+    <img src="Prelim skill/prelim 4.JPG" style="width:200%">
+    <img src="Prelim skill/prelim 5.JPG" style="width:200%">
+    <img src="Prelim skill/prelim 6.JPG" style="width:200%">
+    <img src="Prelim skill/prelim 7.JPG" style="width:200%">
+  </div>
+</div>
+<!-- END GRID -->
+</div>
+
+<!-- END MAIN -->
+</div>
+
+<script>
+filterSelection("all")
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("column");
+  if (c == "all") c = "";
+  for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+  }
+}
+
+function w3AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+  }
+}
+
+function w3RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);     
+    }
+  }
+  element.className = arr1.join(" ");
+}
+
+
+// Add active class to the current button (highlight it)
+var btnContainer = document.getElementById("myBtnContainer");
+var btns = btnContainer.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function(){
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+</script>
+
+</body>
+</html>
